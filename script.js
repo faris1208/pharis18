@@ -73,6 +73,10 @@ const games = [
     },
   ];
 
+
+
+  
+
   const box = document.getElementById('box');
   const gameNames = games.map(function(game){
     // console.log(game);
