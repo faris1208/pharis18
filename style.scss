@@ -23,7 +23,7 @@ body{
 .box{
     display: grid;
     gap: 10px;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto;
    
     width: 100%;
     // background-color: red;
@@ -31,6 +31,44 @@ body{
 
     img{
         width: 100%;
-        border-radius: 5px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width:670px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .box1{
+        background-color: black;
+        padding:20px;
+    
+        h4{
+            color: white;
+            font-size: 20px;
+            margin: 0px 0px 30px;
+        }
+    }
+    
+    .box{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto auto auto auto auto;
+        width: 100%;
+        // background-color: red;
+        
+    
+        img{
+            width: 100%;
+            border-radius: 15px;
+        }
     }
 }
